@@ -1,15 +1,15 @@
 class Gametegra < Formula
   desc "GameTegra CLI"
   homepage "https://github.com/GameTegra/CLI"
-  version "1.0.2-rc.2"
+  version "1.0.3-rc.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/GameTegra/CLI/releases/download/v1.0.2-rc.2/gametegra_1.0.2-rc.2_darwin_arm64.tar.gz"
-      sha256 "d33db9560236e3aa20266a5cd694ff7c56b8bda87312e1286b049a00421bc305"
+      url "https://github.com/GameTegra/CLI/releases/download/v1.0.3-rc.1/gametegra_1.0.3-rc.1_darwin_arm64.tar.gz"
+      sha256 "6e8cb15ef9979e5283c71e1aa5d9aa7a401dc810759913cac92edf4fbce7732d"
     else
-      url "https://github.com/GameTegra/CLI/releases/download/v1.0.2-rc.2/gametegra_1.0.2-rc.2_darwin_amd64.tar.gz"
-      sha256 "766a1be020a56d5feaee2a0510dbd02112aaaa2a1ef9273ea10b1616a237cf95"
+      url "https://github.com/GameTegra/CLI/releases/download/v1.0.3-rc.1/gametegra_1.0.3-rc.1_darwin_amd64.tar.gz"
+      sha256 "f58056f9b6cfb8e513354e4edf823d754f76cf4818f80fcac5078f6b81196aca"
     end
   end
 
